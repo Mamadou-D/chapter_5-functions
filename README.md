@@ -70,8 +70,7 @@ char answer;
                 break; // to exit the scope
         }
 
-    }while(answer != 'n' || answer != 'N');
-    // 'n or N' will quit the function and end the scope !!
+    }while(answer != 'n' || answer != 'N');// 'n or N' will quit the function and end the scope !!
 
 
 
@@ -138,6 +137,23 @@ void Dead()
 {
     Sleep(750);
     cout << "'Kupo (*~*) : Ooops !! You're Dead !!" <<endl;
+    cout << "\n\n\t             'Kupo (^o^) : ";
+    Sleep(755);
+    cout << "See ";
+    Sleep(750);
+    cout << "you ";
+    Sleep(750);
+    cout << "soon !!" << endl;
+    Sleep(750);
+    cout << "\n\n\t             'Kupo (^o^) : ";
+    Sleep(755);
+    cout << "THANK";
+    Sleep (850);
+    cout << " YOU ";
+    Sleep(750);
+    cout << "!";
+    Sleep(750);
+    cout << "!" <<endl;
 
 }
 
